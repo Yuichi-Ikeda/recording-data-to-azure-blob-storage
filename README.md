@@ -6,7 +6,7 @@
 ## 動作イメージ
 (1) **Start Recording** ボタンを押してマイクからの録音を開始します。<p>
 <img src="./images/001.png" title="001 image"><p>
-(2) **Stop Recording and Update to Azure Storage** ボタンを押すと録音を停止し、メモリ中の録音データを Azure Blob ストレージの audio コンテナにアップロードします。<p>
+(2) **Stop Recording and Upload to Azure Storage** ボタンを押すと録音を停止し、メモリ中の録音データを Azure Blob ストレージの audio コンテナにアップロードします。<p>
 <img src="./images/002.png" title="002 image"><p>
 
 ## 初期設定
