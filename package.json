@@ -1,0 +1,26 @@
+{
+  "name": "recording-data-to-azure-blob-storage",
+  "version": "1.0.0",
+  "description": "Upload recording data to Azure Blob Storage",
+  "source": "./index.js",
+  "browserslist": [
+    "last 1 Edge version",
+    "last 1 Chrome version",
+    "last 1 Firefox version",
+    "last 1 safari version"
+  ],
+  "scripts": {
+    "start": "rm -rf dist && parcel ./index.html",
+    "build": "rm -rf build && parcel build ./index.html --dist-dir build --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.12.0",
+    "parcel": "^2.8.1"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1"
+  }
+}
