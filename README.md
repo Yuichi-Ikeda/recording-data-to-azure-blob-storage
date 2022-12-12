@@ -10,7 +10,7 @@
 <img src="./images/002.png" title="002 image"><p>
 
 ## 初期設定
-　index.js ファイルの先頭で SAS URL を指定します。アップロードだけなので WRITE アクセスだけを許可すれば大丈夫です。audio コンテナは予め用意しておく必要があります。
+　index.js ファイルの先頭で SAS URL を指定します。アップロードだけなので Object に対する WRITE アクセスだけを許可すれば大丈夫です。audio コンテナは予め用意しておく必要があります。
 ```javascript:index.js
 // Update <placeholder> with your Blob service SAS URL
 const blobSasUrl = "<placeholder>";
