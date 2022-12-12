@@ -18,6 +18,14 @@ const containerName = "audio";
 ```
 ※ 本来、静的コンテンツに SAS URL を埋め込むことは推奨されませんので、本格的に実装される場合には、10分間だけ WRITE アクセスを許可する SAS URL を返す WEB API 等を用意いただき、アップロード毎に毎回異なる SAS URL を動的生成して利用する事をお勧めします。
 
+## パッケージのインストールとローカル実行
+Visual Studio Code のターミナルで、以下を実行します。
+```bash:build.sh
+npm install @azure/storage-blob
+npm install parcel
+npm start
+```
+
 ## ホストへの配置
 　npm start コマンドで dist フォルダに出力される index.html と index.xxxxxx.js 2つの静的コンテンツを任意の WEB サーバーに配置すれば動作します。より最適化されたビルドは npm run build で build フォルダに出力されるコンテンツとなります。
 
